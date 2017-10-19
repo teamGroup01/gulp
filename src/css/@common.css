@@ -1,0 +1,365 @@
+/**
+ * background
+*/
+.f0 {
+  font-size: 0;
+}
+.f12 {
+  font-size: 12px;
+}
+.f13 {
+  font-size: 13px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f28 {
+  font-size: 28px;
+}
+/**
+ * [family description]
+ * @type {[type]}
+ */
+.ff1 {
+  font-family: Arial;
+}
+.ff1 {
+  font-family: Tahoma;
+}
+.ff1 {
+  font-family: Verdana;
+}
+.ff1 {
+  font-family: Simsun;
+}
+.ff1 {
+  font-family: 'Lucida Console';
+}
+.ff1 {
+  font-family: 'Microsoft Yahei';
+}
+/**	
+ * [weight description]
+ * @type {[type]}
+ */
+.n {
+  font-weight: normal;
+  font-style: normal;
+  white-space: normal;
+}
+.b {
+  font-weight: bold;
+}
+.i {
+  font-style: italic;
+}
+/**
+ * [align description]
+ * @type {[type]}
+ */
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+.tj {
+  text-align: justify;
+}
+/**
+ * [decoration description]
+ * @type {[type]}
+ */
+.tdl {
+  text-decoration: underline;
+}
+.tdn,
+.tdn:hover,
+.tdn a:hover,
+a.tdl:hover {
+  text-decoration: none;
+}
+/**
+ * [space description]
+ * @type {[type]}
+ */
+.nowrap {
+  white-space: nowrap;
+}
+.bk {
+  word-wrap: break-word;
+}
+/**
+ * [align description]
+ * @type {[type]}
+ */
+.vm {
+  vertical-align: middle;
+}
+.vtb {
+  vertical-align: text-bottom;
+}
+.vb {
+  vertical-align: bottom;
+}
+.vt {
+  vertical-align: top;
+}
+.v-1 {
+  vertical-align: -1px;
+}
+.v-2 {
+  vertical-align: -2px;
+}
+.v-3 {
+  vertical-align: -3px;
+}
+.v-4 {
+  vertical-align: -4px;
+}
+.v-5 {
+  vertical-align: -5px;
+}
+/**
+ * [float description]
+ * @type {[type]}
+ */
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+/**
+ * [clear description]
+ * @type {[type]}
+ */
+.cl {
+  clear: both;
+}
+.fix {
+  *zoom: 1;
+}
+.fix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+.opa0 {
+  opacity: 0;
+  filer: alpha(opacity=0);
+}
+/* 有宽度块状元素水平居中 */
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 单行文字溢出虚点显示*/
+.ell {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.trans {
+  transition: all .15s;
+}
+/* 加载图片 */
+.loading {
+  background: url(about:blank) no-repeat center;
+}
+/* 无框文本框文本域 */
+.bd_none {
+  border: 0;
+  outline: none;
+}
+/* 按钮禁用 */
+.disabled {
+  outline: 0 none;
+  cursor: default!important;
+  opacity: .4;
+  filer: alpha(opacity=40);
+  -ms-pointer-events: none;
+  pointer-events: none;
+}
+/* 2. 父级大小固定, 子元素大小不定 垂直居中 */
+.child_absoutle1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.parent_table {
+  display: table;
+}
+.child_table_cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/*
+ * button 
+*/
+.btn {
+  display: inline-block;
+  padding: .5em 1em;
+  border: 0 none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.3em;
+  background-image: none;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.15), inset 0 1px rgba(255, 255, 255, 0.15);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  overflow: visible;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:active {
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+.btn_navy {
+  background-color: #001f3f;
+}
+.btn_blue {
+  background-color: #0074d9;
+}
+.btn_aqua {
+  background-color: #7fdbff;
+}
+.btn_teal {
+  background-color: #39cccc;
+}
+.btn_olive {
+  background-color: #3d9970;
+}
+.btn_green {
+  background-color: #2ecc40;
+}
+.btn_lime {
+  background-color: #01ff70;
+}
+.btn_yellow {
+  background-color: #ffdc00;
+}
+.btn_orange {
+  background-color: #ff851b;
+}
+.btn_red {
+  background-color: #ff4136;
+}
+.btn_fuchsia {
+  background-color: #f012be;
+}
+.btn_purple {
+  background-color: #b10dc9;
+}
+.btn_maroon {
+  background-color: #85144b;
+}
+.btn_white {
+  background-color: #ffffff;
+}
+.btn_gray {
+  background-color: #aaaaaa;
+}
+.btn_silver {
+  background-color: #dddddd;
+}
+.btn_black {
+  background-color: #111111;
+}
+.btn_white,
+.btn_silver {
+  color: #111111;
+  text-shadow: none;
+}
+/*  for Example  display  
+ *  @var = inlie-block
+ *  .d(@var) => display: inline-block; 
+ */
+/*  for Example  height
+ *  @var = 72px
+ *  .h(@var) => height: @var; 
+ */
+/*  for Example  width
+ *  @var = 72px
+ *  .w(@var) => width: @var; 
+ */
+/**
+ * for Example line-height
+ * @var = 5;
+ * .lg(@var) =>line-height: @var;
+ */
+/**
+ * for Example margin
+ * var @t=2,@r=2,@b=2,@l=2;
+ * .m(@t,@r,@b,@l) => margin: @t,@r,@b,@l;
+ */
+/**
+ * for Example padding
+ * @t=2,@r=2,@b=2,@l=2;
+ * .p(@t,@r,@b,@l) => padding: @t,@r,@b,@l;
+ */
+/**
+ * for Example border
+ * @var = 1px dotted transparent;
+ * .p(@t,@r,@b,@l) => padding: @t,@r,@b,@l;
+ */
+/**
+ * for Example background
+ * @var = transparent;
+ * .bg(@var) => background-color: @var
+ */
+/*
+ * 子元素水平垂直居中
+ */
+.p {
+  border: 1px solid red;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.c {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+  color: red;
+}

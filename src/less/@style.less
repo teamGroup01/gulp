@@ -1,0 +1,205 @@
+@import '@variable';
+.f0 {font-size: @f0}
+
+.f12{font-size: @f12}
+
+.f13{font-size: @f13}
+
+.f14{font-size: @f14}
+
+.f16{font-size: @f16}
+
+.f18{font-size: @f18}
+
+.f20{font-size: @f20}
+
+.f24{font-size: @f24}
+
+.f28{font-size: @f28}
+/**
+ * [family description]
+ * @type {[type]}
+ */
+.ff1{font-family: @ff1}
+
+.ff1{font-family: @ff2}
+
+.ff1{font-family: @ff3}
+
+.ff1{font-family: @ff4}
+
+.ff1{font-family: @ff5}
+
+.ff1{font-family: @ff6}
+
+
+/**	
+ * [weight description]
+ * @type {[type]}
+ */
+.n{font-weight:normal; font-style:normal; white-space: normal;}
+
+.b{font-weight:bold;}
+
+.i{font-style:italic;}
+
+
+
+/**
+ * [align description]
+ * @type {[type]}
+ */
+.tc{text-align:center;}
+
+.tr{text-align:right;}
+
+.tl{text-align:left;}
+
+.tj{text-align:justify;}
+
+
+/**
+ * [decoration description]
+ * @type {[type]}
+ */
+.tdl{text-decoration:underline;}
+
+.tdn,.tdn:hover,.tdn a:hover,a.tdl:hover{text-decoration:none;}
+
+
+/**
+ * [space description]
+ * @type {[type]}
+ */
+.nowrap{white-space:nowrap;}
+
+.bk{word-wrap:break-word;}
+
+
+/**
+ * [align description]
+ * @type {[type]}
+ */
+.vm{vertical-align:middle;}
+
+.vtb{vertical-align:text-bottom;}
+
+.vb{vertical-align:bottom;}
+
+.vt{vertical-align:top;}
+
+.v-1{vertical-align:-1px;}
+
+.v-2{vertical-align:-2px;}
+
+.v-3{vertical-align:-3px;}
+
+.v-4{vertical-align:-4px;}
+
+.v-5{vertical-align:-5px;}
+
+
+/**
+ * [float description]
+ * @type {[type]}
+ */
+.l{float:left;}
+
+.r{float:right;}
+
+/**
+ * [clear description]
+ * @type {[type]}
+ */
+.cl{clear:both;}
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+
+
+
+.opa0{opacity:0; filer:alpha(opacity=0);}
+
+/* 有宽度块状元素水平居中 */
+.auto{margin-left:auto; margin-right:auto;}
+
+/* 单行文字溢出虚点显示*/
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+
+.trans{transition:all .15s;}
+
+/* 加载图片 */
+.loading{background:url(about:blank) no-repeat center;}
+
+/* 无框文本框文本域 */
+.bd_none{border:0; outline:none;}
+
+/* 按钮禁用 */
+.disabled{outline:0 none; cursor:default!important; opacity:.4; filer:alpha(opacity=40); -ms-pointer-events:none; pointer-events:none;}
+
+/* 2. 父级大小固定, 子元素大小不定 垂直居中 */
+
+.child_absoutle1 {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+
+.parent_table {display: table;}
+.child_table_cell {display: table-cell;vertical-align: middle;text-align: center;}
+
+
+/*
+ * button 
+*/	
+.btn {
+    display: inline-block; 
+    padding: .5em 1em; 
+    border: 0 none; 
+    border: 1px solid rgba(0,0,0,.25); 
+    border-radius: 0.3em; 
+    background-image: none; 
+    box-shadow: 0 1px rgba(0,0,0,.15), inset 0 1px rgba(255,255,255,.15); 
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    text-shadow: 1px 1px rgba(0,0,0,.1); 
+    font-size: 100%; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    white-space: nowrap;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    user-select: none; 
+    overflow: visible; 
+    cursor: pointer; 
+}
+.btn:hover, .btn:focus { 
+    text-decoration: none; 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.1)); 
+}
+.btn:focus { 
+    outline: thin dotted; 
+    outline: 5px auto -webkit-focus-ring-color; 
+    outline-offset: -2px; 
+}
+.btn:active { 
+    box-shadow: 0 1px rgba(0,0,0,.2), inset 0 1px rgba(0,0,0,.05); 
+    outline: none; 
+}
+
+.btn_navy   	{ background-color:@bg1;}//#001f3f;
+.btn_blue   	{ background-color:@bg2 } //#0074d9;
+.btn_aqua   	{ background-color:@bg3 } //#0074d9;
+.btn_teal   	{ background-color:@bg4} //#39cccc;
+.btn_olive  	{ background-color:@bg5} //#3d9970; 
+.btn_green  	{ background-color:@bg6} //#2ecc40; 
+.btn_lime   	{ background-color:@bg7} //#01ff70; 
+.btn_yellow 	{ background-color:@bg8} //#ffdc00;
+.btn_orange 	{ background-color:@bg9} //#ff851b; 
+.btn_red    	{ background-color:@bg10} //#ff4136; 
+.btn_fuchsia	{ background-color:@bg11} //#f012be; 
+.btn_purple 	{ background-color:@bg12} //#b10dc9;
+.btn_maroon 	{ background-color:@bg13} //#85144b; 
+.btn_white  	{ background-color:@bg14} //#ffffff;
+.btn_gray   	{ background-color:@bg15} //#aaaaaa; 
+.btn_silver 	{ background-color:@bg16} //#dddddd;
+.btn_black  	{ background-color:@bg17} //#111111;
+
+.btn_white, .btn_silver { color: #111111;  text-shadow: none; }
